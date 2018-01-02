@@ -355,14 +355,7 @@ class ImageCrop extends Component {
 								},
 							}),
 						}]}
-						>
-						{Platform.OS === 'android' && isLower && (
-						<View style={{
-							flex: 1,
-							backgroundColor: (isLower) ? 'rgba(0, 0, 0, 0.5)' : 'transparent',
-						}} />
-						)}
-					</Image>
+					/>
 				</View>
 			);
 		}
